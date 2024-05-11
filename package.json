@@ -1,0 +1,21 @@
+{
+  "bin": {
+    "lipg": "./bin/index.js"
+  },
+  "name": "lip-generator",
+  "version": "1.0.0",
+  "description": "A tool to generate LIPs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "LIPs",
+    "gplates"
+  ],
+  "author": "kathrin ayer",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0"
+  }
+}
