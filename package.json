@@ -7,6 +7,7 @@
   "description": "A tool to generate LIPs",
   "main": "index.js",
   "scripts": {
+    "lint": "npx @biomejs/biome check --write",
     "test": "test"
   },
   "keywords": ["LIPs", "gplates"],

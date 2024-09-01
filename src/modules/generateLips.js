@@ -8,8 +8,8 @@ function generateLat() {
 
 function generateLips(options) {
   const { begin, end, sizeLimit, surfaceArea } = options;
-  const beginTime = parseInt(begin);
-  const endTime = parseInt(end);
+  const beginTime = Number.parseInt(begin);
+  const endTime = Number.parseInt(end);
 
   const timeSteps = (beginTime - endTime) * 2;
 
